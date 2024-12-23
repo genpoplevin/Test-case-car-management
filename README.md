@@ -42,9 +42,11 @@ Car Management Project - это веб-приложение, которое по
     cd backend
     python -m venv venv
     source venv/bin/activate   # В Windows: venv\Scripts\activate
+    python -m pip install --upgrade pip
     pip install -r requirements.txt
     python manage.py migrate
     python manage.py createsuperuser --username "admin" --email "admin@admin.com"
+    (Придумайте пароль)
     python manage.py runserver
 3. Настройте фронтенд:
    ```bash

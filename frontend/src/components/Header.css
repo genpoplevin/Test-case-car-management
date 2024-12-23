@@ -1,0 +1,27 @@
+.header {
+    padding: 10px;
+    background: #282c34;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a, .nav button {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav button {
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    background: darkred;
+}
